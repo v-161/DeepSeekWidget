@@ -1,0 +1,46 @@
+# Gradle files
+.gradle/
+build/
+gradle/
+
+# Local configuration file
+local.properties
+
+# Android Studio generated files
+*.iml
+.idea/
+.DS_Store
+
+# Build outputs
+*.apk
+*.aab
+*.dex
+*.class
+
+# Kotlin
+.kotlin/
+
+# Native build files
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Signing keys (CRITICAL - keep these private)
+*.jks
+*.keystore
+keystore.properties
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+*.swp
+*.lock
+
+# Logs
+*.log
+
+# Google Services
+google-services.json
+
+# Crashlytics
+com_crashlytics_build_id.properties

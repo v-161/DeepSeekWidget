@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/widget_container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+android:gravity="center"
+android:background="@drawable/widget_pill_bg"
+android:padding="8dp">
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DeepSeek"
+        android:textColor="#00D4FF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="💬"
+    android:textColor="#00D4FF"
+    android:textSize="16sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start Chat"
+    android:textColor="#FFFFFF"
+    android:textSize="12sp"
+    android:layout_marginStart="6dp" />
+
+</LinearLayout>
